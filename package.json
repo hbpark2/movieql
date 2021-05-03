@@ -2,6 +2,11 @@
   "name": "movieql",
   "version": "1.0.0",
   "description": "Movie API with Graphql",
+  "engines": {
+    "node": "14.x",
+    "npm" : "6.x",
+    "yarn" : "1.x"
+  },
   "main": "index.js",
   "repository": "https://github.com/hbpark2/movieql",
   "author": "jake",
