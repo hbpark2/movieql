@@ -6,9 +6,6 @@
   "repository": "https://github.com/hbpark2/movieql",
   "author": "jake",
   "license": "MIT",
-  "engines":{
-    "node" : "14.x"
-  },
   "dependencies": {
     "axios": "^0.21.1",
     "graphql-yoga": "^1.18.3",
