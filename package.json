@@ -9,13 +9,15 @@
   "dependencies": {
     "axios": "^0.21.1",
     "copy": "^0.3.2",
+    "graphql-tools": "^7.0.4",
     "graphql-yoga": "^1.18.3",
+    "merge-graphql-schemas": "^1.7.8",
     "node-fetch": "^2.6.1"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js",
-    "build": "babel graphql -d build",
-    "postbuild": "cd graphql && copy ./*.graphql ../build/"
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "babel src -d build",
+    "postbuild": "cd src && copy ./graphql/*.graphql ../build/"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
