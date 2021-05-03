@@ -12,7 +12,8 @@
     "node-fetch": "^2.6.1"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node index.js",
+    "heroku-postbuild" : "npx webpack"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
