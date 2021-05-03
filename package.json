@@ -18,7 +18,6 @@
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js",
-    "heroku-postbuild" : "npx webpack",
     "build": "babel graphql -d build",
     "postbuild": "cd graphql && copy ./*.graphql ../build/"
   },
